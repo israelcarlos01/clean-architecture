@@ -24,8 +24,8 @@ export class InMemoryUserRepository implements IUserRepository {
       return null
     }
 
-    findAllUsers (): Promise<IUserData[]> {
-      throw new Error('Method not implemented.')
+    async findAllUsers (): Promise<IUserData[]> {
+      return this.repository
     }
 
     async exists (user: IUserData): Promise<boolean> {
