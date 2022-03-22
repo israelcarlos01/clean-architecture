@@ -1,6 +1,6 @@
 export default {
   roots: [
-    '/src'
+    '<rootDir>/src/'
   ],
   clearMocks: true,
   coverageDirectory: 'coverage',
